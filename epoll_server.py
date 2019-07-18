@@ -1,6 +1,8 @@
 from socket import *
 from select import *
 
+# 真的牛逼
+
 # 创建监听套接字，作为关注的IO
 s = socket()
 s.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)
